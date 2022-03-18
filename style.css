@@ -1,7 +1,13 @@
-body{
+ body{
   background-color: darksalmon;
   
-}
+} 
+ *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+   
+} 
 /* Mobile Devise */
 @media screen and (max-width: 600px) {
   div.example {
