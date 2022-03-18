@@ -1,0 +1,90 @@
+body{
+  background-color: darksalmon;
+  
+}
+/* Mobile Devise */
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;}}
+h1{
+  color:rgb(248, 32, 115);
+ text-align: center;
+ font: bolder;
+ font-size: 50px;
+}
+h2{
+  color:rgb(104, 50, 6);
+  text-align: center;
+  font: bolder;
+  font-size: 40px;
+}
+.about{
+  color: darkviolet;
+  text-align: center;
+  font-size: 35px;
+}
+
+p{
+  background-color: bisque;
+  width: 500px;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text {
+font-size: 30px;
+color:maroon;
+font: bolder;
+margin: 20px auto 10px auto;
+/* display:inline; */
+text-align: center; 
+padding-top: 20px;
+} 
+
+ img {
+  border:solid;
+  border-radius: 10px;
+  margin: auto;
+  padding: 5px;
+  max-width: 300px;
+  box-shadow: 0 0 2px 1px rgba(233, 10, 233, 0.774); 
+  /* display:inline-block; */
+}
+
+.column{
+  display: inline;
+  padding: 10px;
+ 
+} 
+
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+.contact {
+color:maroon;
+font: bolder;
+margin-top: 100px;
+
+} 
+
+#submit {
+cursor: pointer;
+margin-top: 20px;
+border: 0.1rem solid;
+outline-offset: 2px;
+outline: solid #222;
+} 
+/* Tablet Devise */
+@media screen and (max-width: 900px) {
+  div.example {
+    display: none;}}
+
+/* Big Screen Devise */
+@media screen and (max-width: 1100px) {
+  div.example {
+    display: none;}} 
